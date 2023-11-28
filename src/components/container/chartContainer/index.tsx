@@ -1,4 +1,4 @@
-import { Map } from "../../Map";
+import  MapBrazil from "../../Map";
 import * as S from "./styles";
 
 export const ChartContainer: React.FC = () => {
@@ -8,7 +8,7 @@ export const ChartContainer: React.FC = () => {
         <S.Title>Selecione a região:</S.Title>
       </S.TitleWrapper>
       <S.MapWrapper>
-        <Map />
+        <MapBrazil />
       </S.MapWrapper>
     </S.Container>
   );
