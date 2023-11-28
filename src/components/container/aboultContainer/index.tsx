@@ -6,7 +6,7 @@ export const AboutContainer: React.FC = () => {
       <S.HeaderSection className="header-section"></S.HeaderSection>
       <div style={{ display: "flex", justifyContent: "space-around" }}>
         <div style={{ marginLeft: "48px", marginTop: "48px" }}>
-          <img src="./src/assets/colagem.png" alt="escolas" />
+          <img src="../../../../public/colagem.png" alt="escolas" />
         </div>
         <div style={{ paddingTop: "8rem" }}>
           <S.SectionTitle className="section-2-title">

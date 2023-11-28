@@ -4,7 +4,7 @@ export const HomeContainer: React.FC = () => {
   return (
     <S.Container>
       <S.LogoWrapper className="logo-wrapper">
-        <img height="326px" src="src/assets/logo.png" alt="logo" />
+        <img height="326px" src="../../../../public/logo.png" alt="logo" />
       </S.LogoWrapper>
       <div style={{ display: "flex", justifyContent: "space-around" }}>
         <div>
@@ -28,7 +28,7 @@ export const HomeContainer: React.FC = () => {
           </div>
         </div>
         <div>
-          <img  src="./src/assets/criancas.png" alt="criancas" />
+          <img  src="../../../../public/criancas.png" alt="criancas" />
         </div>
       </div>
       <S.FooterSection className="footer-setion"/>

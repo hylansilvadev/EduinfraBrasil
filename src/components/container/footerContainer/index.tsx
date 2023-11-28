@@ -11,7 +11,7 @@ export const FooterContainer: React.FC = () => {
         }}
       >
         <div>
-          <img src="./src/assets/logo.png" alt="" sizes="" />
+          <img src="../../../../public/logo.png" alt="" sizes="" />
         </div>
         <div>
           <div style={{ width: "618px" }}>
@@ -32,27 +32,27 @@ export const FooterContainer: React.FC = () => {
             <ul style={{ display: "flex" }}>
               <S.PX8 className="px-8">
                 <a href="#">
-                  <img src="./src/assets/icons/social/Facebook.png" alt="" />
+                  <img src="../../../../public/icons/social/Facebook.png" alt="" />
                 </a>
               </S.PX8>
               <S.PX8 className="px-8">
                 <a href="#">
-                  <img src="./src/assets/icons/social/Twitter.png" alt="" />
+                  <img src="../../../../public/icons/social/Twitter.png" alt="" />
                 </a>
               </S.PX8>
               <S.PX8 className="px-8">
                 <a href="#">
-                  <img src="./src/assets/icons/social/Instagram.png" alt="" />
+                  <img src="../../../../public/icons/social/Instagram.png" alt="" />
                 </a>
               </S.PX8>
               <S.PX8 className="px-8">
                 <a href="#">
-                  <img src="./src/assets/icons/social/LinkedIn.png" alt="" />
+                  <img src="../../../../public/icons/social/LinkedIn.png" alt="" />
                 </a>
               </S.PX8>
               <S.PX8 className="px-8">
                 <a href="#">
-                  <img src="./src/assets/icons/social/YouTube.png" alt="" />
+                  <img src="../../../../public/icons/social/YouTube.png" alt="" />
                 </a>
               </S.PX8>
             </ul>
