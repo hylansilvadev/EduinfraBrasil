@@ -12,31 +12,31 @@ export const ListContainer: React.FC = () => {
         <ul style={{ display: "flex", marginTop: "128px" }}>
           <li style={{ padding: " 0 30px" }}>
             <S.ItemWrapper>
-              <img src="../../../../public/icons//basic/bulb.png" alt="" />
+              <img src="https://eduinfrabrasil.vercel.app/icons//basic/bulb.png" alt="" />
               <S.ItemTitle>Energia</S.ItemTitle>
             </S.ItemWrapper>
           </li>
           <li style={{ padding: " 0 30px" }}>
             <S.ItemWrapper>
-              <img src="../../../../public/icons//basic/home.png" alt="" />
+              <img src="https://eduinfrabrasil.vercel.app/icons//basic/home.png" alt="" />
               <S.ItemTitle>Infraestrutura</S.ItemTitle>
             </S.ItemWrapper>
           </li>
           <li style={{ padding: " 0 30px" }}>
             <S.ItemWrapper>
-              <img src="../../../../public/icons//basic/droplet.png" alt="" />
+              <img src="https://eduinfrabrasil.vercel.app/icons//basic/droplet.png" alt="" />
               <S.ItemTitle>Água</S.ItemTitle>
             </S.ItemWrapper>
           </li>
           <li style={{ padding: " 0 30px" }}>
             <S.ItemWrapper>
-              <img src="src/assets/icons/basic/wheel.png" alt="" />
+              <img src="https://eduinfrabrasil.vercel.app/icons/basic/wheel.png" alt="" />
               <S.ItemTitle>Esgoto</S.ItemTitle>
             </S.ItemWrapper>
           </li>
           <li style={{ padding: " 0 30px" }}>
             <S.ItemWrapper>
-              <img src="../../../../public/icons//basic/drink.png" alt="" />
+              <img src="https://eduinfrabrasil.vercel.app/icons//basic/drink.png" alt="" />
               <S.ItemTitle>Lixo</S.ItemTitle>
             </S.ItemWrapper>
           </li>

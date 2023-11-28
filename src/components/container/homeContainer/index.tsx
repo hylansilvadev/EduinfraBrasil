@@ -4,7 +4,7 @@ export const HomeContainer: React.FC = () => {
   return (
     <S.Container>
       <S.LogoWrapper className="logo-wrapper">
-        <img height="326px" src="../../../../public/logo.png" alt="logo" />
+        <img height="326px" src="https://eduinfrabrasil.vercel.app/logo.png" alt="logo" />
       </S.LogoWrapper>
       <div style={{ display: "flex", justifyContent: "space-around" }}>
         <div>
@@ -28,7 +28,7 @@ export const HomeContainer: React.FC = () => {
           </div>
         </div>
         <div>
-          <img  src="../../../../public/criancas.png" alt="criancas" />
+          <img  src="https://eduinfrabrasil.vercel.app/criancas.png" alt="criancas" />
         </div>
       </div>
       <S.FooterSection className="footer-setion"/>
