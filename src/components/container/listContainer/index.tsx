@@ -12,31 +12,31 @@ export const ListContainer: React.FC = () => {
         <ul style={{ display: "flex", marginTop: "128px" }}>
           <li style={{ padding: " 0 30px" }}>
             <S.ItemWrapper>
-              <img src="./src/assets/icons/basic/bulb.svg" alt="" />
+              <img src="./src/assets/icons/basic/bulb.png" alt="" />
               <S.ItemTitle>Energia</S.ItemTitle>
             </S.ItemWrapper>
           </li>
           <li style={{ padding: " 0 30px" }}>
             <S.ItemWrapper>
-              <img src="./src/assets/icons/basic/home.svg" alt="" />
+              <img src="./src/assets/icons/basic/home.png" alt="" />
               <S.ItemTitle>Infraestrutura</S.ItemTitle>
             </S.ItemWrapper>
           </li>
           <li style={{ padding: " 0 30px" }}>
             <S.ItemWrapper>
-              <img src="./src/assets/icons/basic/droplet.svg" alt="" />
+              <img src="./src/assets/icons/basic/droplet.png" alt="" />
               <S.ItemTitle>Água</S.ItemTitle>
             </S.ItemWrapper>
           </li>
           <li style={{ padding: " 0 30px" }}>
             <S.ItemWrapper>
-              <img src="src/assets/icons/basic/wheel.svg" alt="" />
+              <img src="src/assets/icons/basic/wheel.png" alt="" />
               <S.ItemTitle>Esgoto</S.ItemTitle>
             </S.ItemWrapper>
           </li>
           <li style={{ padding: " 0 30px" }}>
             <S.ItemWrapper>
-              <img src="./src/assets/icons/basic/drink.svg" alt="" />
+              <img src="./src/assets/icons/basic/drink.png" alt="" />
               <S.ItemTitle>Lixo</S.ItemTitle>
             </S.ItemWrapper>
           </li>
