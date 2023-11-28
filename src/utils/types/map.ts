@@ -15,7 +15,7 @@ export interface PropsPathMap {
     bg?: string
     fill?: string
     colorLabel?: string
-    colorStroke?: string 
+    colorStroke?: string
     onChange?: (param: string) => void
   }
   
@@ -23,7 +23,7 @@ export interface PropsPathMap {
     fill?: string
     bg?: string
     colorLabel?: string
-    colorStroke: string
+    colorStroke?: string
     defaultBg: string
     defaultFill: string
   }

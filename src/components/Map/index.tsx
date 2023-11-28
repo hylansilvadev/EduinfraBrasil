@@ -31,7 +31,6 @@ const MapBrazil: React.FC<Props> = ({
     title,
     d1,
     d2,
-    transform,
     districtItem
   }) => {
     const [color, setColor] = useState('#8d8d8d')
