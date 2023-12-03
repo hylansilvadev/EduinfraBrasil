@@ -5,6 +5,7 @@ const MapBrazil: React.FC<Props> = ({
   width,
   height,
   onChange,
+  onNameDistrict,
   fill,
   bg,
   colorLabel,
@@ -37,6 +38,7 @@ const MapBrazil: React.FC<Props> = ({
     function handleStyle() {
       setDistrict(districtItem)
       onChange && onChange(districtItem)
+      onNameDistrict && onNameDistrict(title)
     }
     useEffect(() => {
       setColor(
@@ -419,7 +421,7 @@ const MapBrazil: React.FC<Props> = ({
             transform='matrix(1 0 0 1 292.4141 254.2139)'
           />
           <PathMap
-            districtItem=''
+            districtItem='PB'
             d1='M401.575,141.096
         c2.081-3.081,16.791-6.82,19.117-4.616c0,1.918,7.259,1.686,10.133,2.712c-0.492,3.038,12.652,1.533,14.408,2.259
         c1.421,0.589,3.833,11.983,1.421,12.202c-0.874-1.124-2.083-1.739-3.586-1.835c-2.957-0.027-2.546,1.863-4.383,3.108

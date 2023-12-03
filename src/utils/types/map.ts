@@ -17,6 +17,7 @@ export interface PropsPathMap {
     colorLabel?: string
     colorStroke?: string
     onChange?: (param: string) => void
+    onNameDistrict?: (param: string) => void
   }
   
   export interface PropsStyle {

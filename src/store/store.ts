@@ -1,10 +1,12 @@
 import { configureStore, Action, ThunkAction } from "@reduxjs/toolkit";
 import { setupListeners } from '@reduxjs/toolkit/query'
 import { dataApi } from "../service/api";
+import {dataSlice} from "./reducers/dataReducer"
 
 export  const store = configureStore({
     reducer:{
         [dataApi.reducerPath]: dataApi.reducer,
+        apiData: dataSlice.reducer
     },
 
     middleware: (getDefaultMiddleware) =>
