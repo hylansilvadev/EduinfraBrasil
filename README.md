@@ -22,8 +22,3 @@ O projeto EduInfra foi desenvolvido utilizando tecnologias modernas para garanti
 
  - Redux Toolkit: Uma biblioteca que simplifica o gerenciamento de estado na aplicação, tornando a manipulação e a atualização dos dados mais eficientes.
 
-## Desenvolvido por:
-
-![Imagem Hylan Silva](https://avatars.githubusercontent.com/u/111002592?v=4)
-
-  [Hylan Silva](https://github.com/hylansilva)
