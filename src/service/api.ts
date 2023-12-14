@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import { DataType } from '../utils/types/data';
 
 // Define the base URL
-const baseUrl = 'https://eduinfrabrasilservice-restless-feather-1346.fly.dev/';
+const baseUrl = 'https://eduinfra-backend.azurewebsites.net/';
 
 // Define the API slice
 export const dataApi = createApi({
